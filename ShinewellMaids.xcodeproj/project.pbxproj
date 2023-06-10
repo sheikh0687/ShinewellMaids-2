@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2616B22A347A170059F379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616B12A347A170059F379 /* AppDelegate.swift */; };
+		CF2616B42A347A170059F379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616B32A347A170059F379 /* SceneDelegate.swift */; };
+		CF2616B62A347A170059F379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616B52A347A170059F379 /* ViewController.swift */; };
+		CF2616B92A347A170059F379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2616B72A347A170059F379 /* Main.storyboard */; };
+		CF2616BB2A347A190059F379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2616BA2A347A190059F379 /* Assets.xcassets */; };
+		CF2616BE2A347A190059F379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2616BC2A347A190059F379 /* LaunchScreen.storyboard */; };
+		CF2616C92A347A190059F379 /* ShinewellMaidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616C82A347A190059F379 /* ShinewellMaidsTests.swift */; };
+		CF2616D32A347A190059F379 /* ShinewellMaidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616D22A347A190059F379 /* ShinewellMaidsUITests.swift */; };
+		CF2616D52A347A190059F379 /* ShinewellMaidsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616D42A347A190059F379 /* ShinewellMaidsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2616C52A347A190059F379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2616A62A347A170059F379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2616AD2A347A170059F379;
+			remoteInfo = ShinewellMaids;
+		};
+		CF2616CF2A347A190059F379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2616A62A347A170059F379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2616AD2A347A170059F379;
+			remoteInfo = ShinewellMaids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF2616AE2A347A170059F379 /* ShinewellMaids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinewellMaids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2616B12A347A170059F379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF2616B32A347A170059F379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF2616B52A347A170059F379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF2616B82A347A170059F379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF2616BA2A347A190059F379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2616BD2A347A190059F379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF2616BF2A347A190059F379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2616C42A347A190059F379 /* ShinewellMaidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinewellMaidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2616C82A347A190059F379 /* ShinewellMaidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinewellMaidsTests.swift; sourceTree = "<group>"; };
+		CF2616CE2A347A190059F379 /* ShinewellMaidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinewellMaidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2616D22A347A190059F379 /* ShinewellMaidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinewellMaidsUITests.swift; sourceTree = "<group>"; };
+		CF2616D42A347A190059F379 /* ShinewellMaidsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinewellMaidsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2616AB2A347A170059F379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2616C12A347A190059F379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2616CB2A347A190059F379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2616A52A347A170059F379 = {
+			isa = PBXGroup;
+			children = (
+				CF2616B02A347A170059F379 /* ShinewellMaids */,
+				CF2616C72A347A190059F379 /* ShinewellMaidsTests */,
+				CF2616D12A347A190059F379 /* ShinewellMaidsUITests */,
+				CF2616AF2A347A170059F379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2616AF2A347A170059F379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616AE2A347A170059F379 /* ShinewellMaids.app */,
+				CF2616C42A347A190059F379 /* ShinewellMaidsTests.xctest */,
+				CF2616CE2A347A190059F379 /* ShinewellMaidsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2616B02A347A170059F379 /* ShinewellMaids */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616B12A347A170059F379 /* AppDelegate.swift */,
+				CF2616B32A347A170059F379 /* SceneDelegate.swift */,
+				CF2616B52A347A170059F379 /* ViewController.swift */,
+				CF2616B72A347A170059F379 /* Main.storyboard */,
+				CF2616BA2A347A190059F379 /* Assets.xcassets */,
+				CF2616BC2A347A190059F379 /* LaunchScreen.storyboard */,
+				CF2616BF2A347A190059F379 /* Info.plist */,
+			);
+			path = ShinewellMaids;
+			sourceTree = "<group>";
+		};
+		CF2616C72A347A190059F379 /* ShinewellMaidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616C82A347A190059F379 /* ShinewellMaidsTests.swift */,
+			);
+			path = ShinewellMaidsTests;
+			sourceTree = "<group>";
+		};
+		CF2616D12A347A190059F379 /* ShinewellMaidsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616D22A347A190059F379 /* ShinewellMaidsUITests.swift */,
+				CF2616D42A347A190059F379 /* ShinewellMaidsUITestsLaunchTests.swift */,
+			);
+			path = ShinewellMaidsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2616AD2A347A170059F379 /* ShinewellMaids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2616D82A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaids" */;
+			buildPhases = (
+				CF2616AA2A347A170059F379 /* Sources */,
+				CF2616AB2A347A170059F379 /* Frameworks */,
+				CF2616AC2A347A170059F379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShinewellMaids;
+			productName = ShinewellMaids;
+			productReference = CF2616AE2A347A170059F379 /* ShinewellMaids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF2616C32A347A190059F379 /* ShinewellMaidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2616DB2A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaidsTests" */;
+			buildPhases = (
+				CF2616C02A347A190059F379 /* Sources */,
+				CF2616C12A347A190059F379 /* Frameworks */,
+				CF2616C22A347A190059F379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2616C62A347A190059F379 /* PBXTargetDependency */,
+			);
+			name = ShinewellMaidsTests;
+			productName = ShinewellMaidsTests;
+			productReference = CF2616C42A347A190059F379 /* ShinewellMaidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF2616CD2A347A190059F379 /* ShinewellMaidsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2616DE2A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaidsUITests" */;
+			buildPhases = (
+				CF2616CA2A347A190059F379 /* Sources */,
+				CF2616CB2A347A190059F379 /* Frameworks */,
+				CF2616CC2A347A190059F379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2616D02A347A190059F379 /* PBXTargetDependency */,
+			);
+			name = ShinewellMaidsUITests;
+			productName = ShinewellMaidsUITests;
+			productReference = CF2616CE2A347A190059F379 /* ShinewellMaidsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2616A62A347A170059F379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CF2616AD2A347A170059F379 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CF2616C32A347A190059F379 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CF2616AD2A347A170059F379;
+					};
+					CF2616CD2A347A190059F379 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CF2616AD2A347A170059F379;
+					};
+				};
+			};
+			buildConfigurationList = CF2616A92A347A170059F379 /* Build configuration list for PBXProject "ShinewellMaids" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2616A52A347A170059F379;
+			productRefGroup = CF2616AF2A347A170059F379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2616AD2A347A170059F379 /* ShinewellMaids */,
+				CF2616C32A347A190059F379 /* ShinewellMaidsTests */,
+				CF2616CD2A347A190059F379 /* ShinewellMaidsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2616AC2A347A170059F379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2616BE2A347A190059F379 /* LaunchScreen.storyboard in Resources */,
+				CF2616BB2A347A190059F379 /* Assets.xcassets in Resources */,
+				CF2616B92A347A170059F379 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2616C22A347A190059F379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2616CC2A347A190059F379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2616AA2A347A170059F379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2616B62A347A170059F379 /* ViewController.swift in Sources */,
+				CF2616B22A347A170059F379 /* AppDelegate.swift in Sources */,
+				CF2616B42A347A170059F379 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2616C02A347A190059F379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2616C92A347A190059F379 /* ShinewellMaidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2616CA2A347A190059F379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2616D32A347A190059F379 /* ShinewellMaidsUITests.swift in Sources */,
+				CF2616D52A347A190059F379 /* ShinewellMaidsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2616C62A347A190059F379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2616AD2A347A170059F379 /* ShinewellMaids */;
+			targetProxy = CF2616C52A347A190059F379 /* PBXContainerItemProxy */;
+		};
+		CF2616D02A347A190059F379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2616AD2A347A170059F379 /* ShinewellMaids */;
+			targetProxy = CF2616CF2A347A190059F379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF2616B72A347A170059F379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2616B82A347A170059F379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF2616BC2A347A190059F379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2616BD2A347A190059F379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2616D62A347A190059F379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF2616D72A347A190059F379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2616D92A347A190059F379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TLAY9535B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShinewellMaids/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techimmense.ShinewellMaids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2616DA2A347A190059F379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TLAY9535B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShinewellMaids/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techimmense.ShinewellMaids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF2616DC2A347A190059F379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TLAY9535B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techimmense.ShinewellMaidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShinewellMaids.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShinewellMaids";
+			};
+			name = Debug;
+		};
+		CF2616DD2A347A190059F379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TLAY9535B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techimmense.ShinewellMaidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShinewellMaids.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShinewellMaids";
+			};
+			name = Release;
+		};
+		CF2616DF2A347A190059F379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TLAY9535B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techimmense.ShinewellMaidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShinewellMaids;
+			};
+			name = Debug;
+		};
+		CF2616E02A347A190059F379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TLAY9535B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techimmense.ShinewellMaidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShinewellMaids;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2616A92A347A170059F379 /* Build configuration list for PBXProject "ShinewellMaids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2616D62A347A190059F379 /* Debug */,
+				CF2616D72A347A190059F379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2616D82A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2616D92A347A190059F379 /* Debug */,
+				CF2616DA2A347A190059F379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2616DB2A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2616DC2A347A190059F379 /* Debug */,
+				CF2616DD2A347A190059F379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2616DE2A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaidsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2616DF2A347A190059F379 /* Debug */,
+				CF2616E02A347A190059F379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2616A62A347A170059F379 /* Project object */;
+}
