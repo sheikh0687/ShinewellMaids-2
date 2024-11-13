@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6FB181AE-77FA-44A5-8C01-F59BDBF137C9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1557A86C-0E54-4F82-82DA-A5FDCE71C363"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShinewellMaids/Controller/OptionSlotVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "404"
+            endingLineNumber = "404"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57EF0961-FFFD-4D3D-A52F-8646D182E0DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShinewellMaids/Component/ThirdPartyLibrary/MBProgressHUD.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "059ECF50-D518-4319-840B-ECF646973AC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShinewellMaids/Controller/SignUpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "paramSocialLogin(fName:lName:email:mobile:socialId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B25BF79-E1BD-43A6-AE6E-7E39A3475305"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShinewellMaids/Controller/SignUpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "socail_Login(fName:lName:email:mobile:socialId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B25BF79-E1BD-43A6-AE6E-7E39A3475305 - 7d8d14bfbea230fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShinewellMaids.SignUpVC.socail_Login(fName: Swift.String, lName: Swift.String, email: Swift.String, mobile: Swift.String, socialId: Swift.String) -&gt; ()"
+                  moduleName = "ShinewellMaids"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/techimmensesoftwaresolutions/Desktop/TechImmense%20Projects/ShinewellMaids%202/ShinewellMaids/Controller/SignUpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "502">
+               </Location>
+               <Location
+                  uuid = "1B25BF79-E1BD-43A6-AE6E-7E39A3475305 - 54d6b93021cd0afc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ShinewellMaids.ResLogin) -&gt; () in ShinewellMaids.SignUpVC.socail_Login(fName: Swift.String, lName: Swift.String, email: Swift.String, mobile: Swift.String, socialId: Swift.String) -&gt; ()"
+                  moduleName = "ShinewellMaids"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/techimmensesoftwaresolutions/Desktop/TechImmense%20Projects/ShinewellMaids%202/ShinewellMaids/Controller/SignUpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "1B25BF79-E1BD-43A6-AE6E-7E39A3475305 - 7d8d14bfbea230d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShinewellMaids.SignUpVC.socail_Login(fName: Swift.String, lName: Swift.String, email: Swift.String, mobile: Swift.String, socialId: Swift.String) -&gt; ()"
+                  moduleName = "ShinewellMaids"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/techimmensesoftwaresolutions/Desktop/TechImmense%20Projects/ShinewellMaids%202/ShinewellMaids/Controller/SignUpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "1B25BF79-E1BD-43A6-AE6E-7E39A3475305 - 54d6b93021cd0adb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ShinewellMaids.ResLogin) -&gt; () in ShinewellMaids.SignUpVC.socail_Login(fName: Swift.String, lName: Swift.String, email: Swift.String, mobile: Swift.String, socialId: Swift.String) -&gt; ()"
+                  moduleName = "ShinewellMaids"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/techimmensesoftwaresolutions/Desktop/TechImmense%20Projects/ShinewellMaids%202/ShinewellMaids/Controller/SignUpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "1B25BF79-E1BD-43A6-AE6E-7E39A3475305 - 54d6b93021cd0adb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ShinewellMaids.ResLogin) -&gt; () in ShinewellMaids.SignUpVC.socail_Login(fName: Swift.String, lName: Swift.String, email: Swift.String, mobile: Swift.String, socialId: Swift.String) -&gt; ()"
+                  moduleName = "ShinewellMaids"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/techimmensesoftwaresolutions/Desktop/TechImmense%20Projects/ShinewellMaids%202/ShinewellMaids/Controller/SignUpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "47">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7266FFB-8F97-4367-A771-4583A4D0A002"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShinewellMaids/Controller/SignUpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "btnGoogle(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

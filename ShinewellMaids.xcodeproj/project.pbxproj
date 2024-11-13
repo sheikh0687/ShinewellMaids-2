@@ -7,15 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55CF1D9B1A3C6AB78AB368E7 /* Pods_ShinewellMaidsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E858352D9AE409BECB653A /* Pods_ShinewellMaidsTests.framework */; };
+		7D554D150A700E54C0FBDD1D /* Pods_ShinewellMaids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCCCEE860EA6E47499F9F51 /* Pods_ShinewellMaids.framework */; };
+		CF11856B2A4966340036F87B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11856A2A4966340036F87B /* Service.swift */; };
+		CF1185702A4966F20036F87B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11856F2A4966F20036F87B /* Utility.swift */; };
+		CF1185722A4967AD0036F87B /* InternetUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1185712A4967AD0036F87B /* InternetUtility.swift */; };
+		CF1185792A4967FF0036F87B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1185772A4967FF0036F87B /* Reachability.m */; };
+		CF11857A2A4967FF0036F87B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1185782A4967FF0036F87B /* MBProgressHUD.m */; };
 		CF2616B22A347A170059F379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616B12A347A170059F379 /* AppDelegate.swift */; };
-		CF2616B42A347A170059F379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616B32A347A170059F379 /* SceneDelegate.swift */; };
-		CF2616B62A347A170059F379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616B52A347A170059F379 /* ViewController.swift */; };
 		CF2616B92A347A170059F379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2616B72A347A170059F379 /* Main.storyboard */; };
 		CF2616BB2A347A190059F379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2616BA2A347A190059F379 /* Assets.xcassets */; };
 		CF2616BE2A347A190059F379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2616BC2A347A190059F379 /* LaunchScreen.storyboard */; };
 		CF2616C92A347A190059F379 /* ShinewellMaidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616C82A347A190059F379 /* ShinewellMaidsTests.swift */; };
 		CF2616D32A347A190059F379 /* ShinewellMaidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616D22A347A190059F379 /* ShinewellMaidsUITests.swift */; };
 		CF2616D52A347A190059F379 /* ShinewellMaidsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616D42A347A190059F379 /* ShinewellMaidsUITestsLaunchTests.swift */; };
+		CF2616E92A347ACF0059F379 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616E82A347ACF0059F379 /* Extension.swift */; };
+		CF2616EB2A347AE90059F379 /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616EA2A347AE90059F379 /* NavigationExtension.swift */; };
+		CF2616EE2A347B200059F379 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616ED2A347B200059F379 /* Constant.swift */; };
+		CF2616F02A347B2E0059F379 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616EF2A347B2E0059F379 /* Variable.swift */; };
+		CF2616F22A347C9D0059F379 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616F12A347C9D0059F379 /* LoginVC.swift */; };
+		CF2616F42A347F2A0059F379 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616F32A347F2A0059F379 /* SignUpVC.swift */; };
+		CF2616F62A3486820059F379 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616F52A3486820059F379 /* ForgotPasswordVC.swift */; };
+		CF2616F82A348C6A0059F379 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616F72A348C6A0059F379 /* HomeVC.swift */; };
+		CF2617002A3493A00059F379 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2616FE2A3493A00059F379 /* OfferCell.swift */; };
+		CF2617012A3493A00059F379 /* OfferCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2616FF2A3493A00059F379 /* OfferCell.xib */; };
+		CF2617032A34AF120059F379 /* OptionSlotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2617022A34AF110059F379 /* OptionSlotVC.swift */; };
+		CF42F6082A383ABF005E3C83 /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42F6072A383ABF005E3C83 /* LeftMenuVC.swift */; };
+		CF42F60C2A383C7C005E3C83 /* LeftMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42F60A2A383C7C005E3C83 /* LeftMenuCell.swift */; };
+		CF42F60D2A383C7C005E3C83 /* LeftMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF42F60B2A383C7C005E3C83 /* LeftMenuCell.xib */; };
+		CF5E82AB2A57DB9400F77375 /* ChangeStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E82AA2A57DB9400F77375 /* ChangeStatus.swift */; };
+		CF5E82BE2A57E78B00F77375 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E82BD2A57E78B00F77375 /* PaymentVC.swift */; };
+		CF5E82C02A580D2100F77375 /* BillPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E82BF2A580D2100F77375 /* BillPaymentVC.swift */; };
+		CF5E82C22A581CB600F77375 /* ApplyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E82C12A581CB600F77375 /* ApplyCode.swift */; };
+		CF5E82C42A581EAE00F77375 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E82C32A581EAE00F77375 /* Setting.swift */; };
+		CF7488F22A38A18B008C52B6 /* PresentDeleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7488F12A38A18B008C52B6 /* PresentDeleteVC.swift */; };
+		CF7EE7D42A398C3600C02C2F /* NotififcationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7EE7D32A398C3600C02C2F /* NotififcationVC.swift */; };
+		CF7EE7D82A398C6D00C02C2F /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7EE7D62A398C6D00C02C2F /* NotificationCell.swift */; };
+		CF7EE7D92A398C6D00C02C2F /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF7EE7D72A398C6D00C02C2F /* NotificationCell.xib */; };
+		CF8EDD402A497047005888F4 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD3F2A497047005888F4 /* Api.swift */; };
+		CF8EDD432A497056005888F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD422A497056005888F4 /* Router.swift */; };
+		CF8EDD472A4971D8005888F4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD462A4971D8005888F4 /* Login.swift */; };
+		CF8EDD492A4978D1005888F4 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD482A4978D1005888F4 /* Basic.swift */; };
+		CF8EDD4B2A498AE2005888F4 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD4A2A498AE2005888F4 /* SignUp.swift */; };
+		CF8EDD4D2A4992B3005888F4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD4C2A4992B2005888F4 /* Profile.swift */; };
+		CF8EDD4F2A499508005888F4 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD4E2A499508005888F4 /* CameraHandler.swift */; };
+		CF8EDD512A4996C6005888F4 /* UpdateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD502A4996C6005888F4 /* UpdateProfile.swift */; };
+		CF8EDD532A499B35005888F4 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD522A499B35005888F4 /* Notification.swift */; };
+		CF8EDD572A499F10005888F4 /* AreaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD562A499F10005888F4 /* AreaList.swift */; };
+		CF8EDD592A49A728005888F4 /* OfferList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD582A49A728005888F4 /* OfferList.swift */; };
+		CF8EDD6E2A49BF4A005888F4 /* ExtraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD6D2A49BF4A005888F4 /* ExtraService.swift */; };
+		CF8EDD702A49C240005888F4 /* ExtraCleaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EDD6F2A49C240005888F4 /* ExtraCleaning.swift */; };
+		CF9244AE2A5C2C4C0013718A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF9244AD2A5C2C4C0013718A /* GoogleService-Info.plist */; };
+		CF9526E62A56A22000C87B86 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9526E42A56A22000C87B86 /* DayCell.swift */; };
+		CF9526E72A56A22000C87B86 /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9526E52A56A22000C87B86 /* DayCell.xib */; };
+		CF9626282A56DA7C0049B101 /* PresentCancelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9626272A56DA7C0049B101 /* PresentCancelVC.swift */; };
+		CF974FE52A4AB08400B982E5 /* AddressPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF974FE42A4AB08400B982E5 /* AddressPickerVC.swift */; };
+		CF974FE92A4AB25300B982E5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF974FE82A4AB25300B982E5 /* LocationManager.swift */; };
+		CF974FEB2A4AB2BB00B982E5 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF974FEA2A4AB2BB00B982E5 /* CustomAnnotation.swift */; };
+		CF974FED2A4AB3A800B982E5 /* SearchLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF974FEC2A4AB3A800B982E5 /* SearchLocationCell.swift */; };
+		CF974FEF2A4AB5B100B982E5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF974FEE2A4AB5B100B982E5 /* R.generated.swift */; };
+		CF974FF12A4AB62B00B982E5 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF974FF02A4AB62B00B982E5 /* NotificationVC.swift */; };
+		CF9A097A2A5429C800BEF12F /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A09792A5429C800BEF12F /* Feedback.swift */; };
+		CF9A097C2A54433800BEF12F /* ConvertPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A097B2A54433800BEF12F /* ConvertPoints.swift */; };
+		CF9A097E2A544A8E00BEF12F /* BookingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A097D2A544A8E00BEF12F /* BookingDetail.swift */; };
+		CF9A85D02A4AC53C0026AEB5 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A85CF2A4AC53C0026AEB5 /* Address.swift */; };
+		CF9B765E2A37151900C7A654 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B765C2A37151900C7A654 /* ServiceCell.swift */; };
+		CF9B765F2A37151900C7A654 /* ServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9B765D2A37151900C7A654 /* ServiceCell.xib */; };
+		CF9B76612A372C3400C7A654 /* SavedAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B76602A372C3400C7A654 /* SavedAddressVC.swift */; };
+		CF9B76672A372DF700C7A654 /* AdressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B76652A372DF700C7A654 /* AdressCell.swift */; };
+		CF9B76682A372DF700C7A654 /* AdressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9B76662A372DF700C7A654 /* AdressCell.xib */; };
+		CF9B766A2A37343300C7A654 /* AddAdressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B76692A37343300C7A654 /* AddAdressVC.swift */; };
+		CF9B766C2A373F6F00C7A654 /* DateTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B766B2A373F6F00C7A654 /* DateTimeVC.swift */; };
+		CF9B766E2A37504400C7A654 /* WalletContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B766D2A37504400C7A654 /* WalletContainerVC.swift */; };
+		CF9B76702A3751CE00C7A654 /* CouponContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B766F2A3751CE00C7A654 /* CouponContainerVC.swift */; };
+		CF9B76722A3754EF00C7A654 /* BookingRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B76712A3754EF00C7A654 /* BookingRequestVC.swift */; };
+		CF9F54A52A6564EC00B438FD /* UpdateArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9F54A42A6564EC00B438FD /* UpdateArea.swift */; };
+		CFAFBBE72A54551E00C59F06 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFBBE62A54551E00C59F06 /* Calculation.swift */; };
+		CFB10C512A55428F002D9711 /* AddBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB10C502A55428F002D9711 /* AddBooking.swift */; };
+		CFB468FC2A386959003495E6 /* MyBookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB468FB2A386959003495E6 /* MyBookingVC.swift */; };
+		CFB469002A3869B8003495E6 /* BookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB468FE2A3869B8003495E6 /* BookingCell.swift */; };
+		CFB469012A3869B8003495E6 /* BookingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB468FF2A3869B8003495E6 /* BookingCell.xib */; };
+		CFB469032A3873F2003495E6 /* BookingHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB469022A3873F2003495E6 /* BookingHistoryVC.swift */; };
+		CFB469072A387427003495E6 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB469052A387427003495E6 /* HistoryCell.swift */; };
+		CFB469082A387427003495E6 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB469062A387427003495E6 /* HistoryCell.xib */; };
+		CFB4690A2A387799003495E6 /* BookingDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB469092A387799003495E6 /* BookingDetailsVC.swift */; };
+		CFB4690C2A387EB2003495E6 /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4690B2A387EB2003495E6 /* WalletVC.swift */; };
+		CFB4690E2A388341003495E6 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4690D2A388341003495E6 /* EditProfileVC.swift */; };
+		CFB469102A388457003495E6 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4690F2A388457003495E6 /* ChangePasswordVC.swift */; };
+		CFB469122A3884D0003495E6 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB469112A3884D0003495E6 /* ContactVC.swift */; };
+		CFB469502A389C8B003495E6 /* PendingBillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4694F2A389C8B003495E6 /* PendingBillVC.swift */; };
+		CFB469542A389CED003495E6 /* PendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB469522A389CED003495E6 /* PendingCell.swift */; };
+		CFB469552A389CED003495E6 /* PendingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB469532A389CED003495E6 /* PendingCell.xib */; };
+		CFBD53782ACAD83800005191 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD53772ACAD83800005191 /* Stripe */; };
+		CFBD537A2ACAD83800005191 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD53792ACAD83800005191 /* StripeApplePay */; };
+		CFBD537C2ACAD83800005191 /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD537B2ACAD83800005191 /* StripeCardScan */; };
+		CFBD537E2ACAD83800005191 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD537D2ACAD83800005191 /* StripeFinancialConnections */; };
+		CFBD53802ACAD83800005191 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD537F2ACAD83800005191 /* StripeIdentity */; };
+		CFBD53822ACAD83800005191 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD53812ACAD83800005191 /* StripePaymentSheet */; };
+		CFBD53842ACAD83800005191 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD53832ACAD83800005191 /* StripePayments */; };
+		CFBD53862ACAD83800005191 /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD53852ACAD83800005191 /* StripePaymentsUI */; };
+		CFC834142A4C3973003F425A /* DeleteAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC834132A4C3973003F425A /* DeleteAddress.swift */; };
+		CFC834162A4C3DDB003F425A /* AddAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC834152A4C3DDB003F425A /* AddAddress.swift */; };
+		CFC834182A4C4742003F425A /* BookingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC834172A4C4742003F425A /* BookingList.swift */; };
+		CFC8341A2A4C4F63003F425A /* PendingBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC834192A4C4F63003F425A /* PendingBill.swift */; };
+		CFC8341C2A4C58DD003F425A /* BookingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8341B2A4C58DD003F425A /* BookingHistory.swift */; };
+		CFC8341E2A4C60FC003F425A /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8341D2A4C60FB003F425A /* ChangePassword.swift */; };
+		CFCA126E2A46C8720005B6F9 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA126D2A46C8720005B6F9 /* Switcher.swift */; };
+		CFCA12702A46CAA70005B6F9 /* ReferFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA126F2A46CAA70005B6F9 /* ReferFriendVC.swift */; };
+		CFD2B4072A5D3201004E7E0F /* GradiantPathRendered.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2B4062A5D3201004E7E0F /* GradiantPathRendered.swift */; };
+		CFD2B4092A5D3253004E7E0F /* NetworkActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2B4082A5D3253004E7E0F /* NetworkActivityIndicatorManager.swift */; };
+		CFD2B40B2A5D52A1004E7E0F /* TermsNConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2B40A2A5D52A1004E7E0F /* TermsNConditionVC.swift */; };
+		CFD800342A36E8CC00675472 /* CleaningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD800322A36E8CC00675472 /* CleaningCell.swift */; };
+		CFD800352A36E8CC00675472 /* CleaningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD800332A36E8CC00675472 /* CleaningCell.xib */; };
+		E902CF0C1A4E0439057DF2CE /* Pods_ShinewellMaids_ShinewellMaidsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9337C62AD20571F4DCC65BBB /* Pods_ShinewellMaids_ShinewellMaidsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +140,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011BA4FA40146DD62672735C /* Pods-ShinewellMaids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinewellMaids.debug.xcconfig"; path = "Target Support Files/Pods-ShinewellMaids/Pods-ShinewellMaids.debug.xcconfig"; sourceTree = "<group>"; };
+		11356292964182EB73FEBD2C /* Pods-ShinewellMaids-ShinewellMaidsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinewellMaids-ShinewellMaidsUITests.release.xcconfig"; path = "Target Support Files/Pods-ShinewellMaids-ShinewellMaidsUITests/Pods-ShinewellMaids-ShinewellMaidsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37E858352D9AE409BECB653A /* Pods_ShinewellMaidsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinewellMaidsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DD4A1776C453F1A2F99DAB /* Pods-ShinewellMaids.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinewellMaids.release.xcconfig"; path = "Target Support Files/Pods-ShinewellMaids/Pods-ShinewellMaids.release.xcconfig"; sourceTree = "<group>"; };
+		8A50178E52B706F6FEB465FA /* Pods-ShinewellMaids-ShinewellMaidsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinewellMaids-ShinewellMaidsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShinewellMaids-ShinewellMaidsUITests/Pods-ShinewellMaids-ShinewellMaidsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9337C62AD20571F4DCC65BBB /* Pods_ShinewellMaids_ShinewellMaidsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinewellMaids_ShinewellMaidsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCCCEE860EA6E47499F9F51 /* Pods_ShinewellMaids.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinewellMaids.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA285F5D10E6684605103D1 /* Pods-ShinewellMaidsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinewellMaidsTests.release.xcconfig"; path = "Target Support Files/Pods-ShinewellMaidsTests/Pods-ShinewellMaidsTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF11856A2A4966340036F87B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CF11856F2A4966F20036F87B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		CF1185712A4967AD0036F87B /* InternetUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetUtility.swift; sourceTree = "<group>"; };
+		CF1185742A4967FF0036F87B /* ShinewellMaids-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShinewellMaids-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF1185752A4967FF0036F87B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CF1185762A4967FF0036F87B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CF1185772A4967FF0036F87B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CF1185782A4967FF0036F87B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		CF2616AE2A347A170059F379 /* ShinewellMaids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinewellMaids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2616B12A347A170059F379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF2616B32A347A170059F379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF2616B52A347A170059F379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF2616B82A347A170059F379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF2616BA2A347A190059F379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2616BD2A347A190059F379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +167,98 @@
 		CF2616CE2A347A190059F379 /* ShinewellMaidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinewellMaidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2616D22A347A190059F379 /* ShinewellMaidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinewellMaidsUITests.swift; sourceTree = "<group>"; };
 		CF2616D42A347A190059F379 /* ShinewellMaidsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinewellMaidsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF2616E82A347ACF0059F379 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CF2616EA2A347AE90059F379 /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		CF2616ED2A347B200059F379 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CF2616EF2A347B2E0059F379 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		CF2616F12A347C9D0059F379 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CF2616F32A347F2A0059F379 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		CF2616F52A3486820059F379 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		CF2616F72A348C6A0059F379 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CF2616FE2A3493A00059F379 /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		CF2616FF2A3493A00059F379 /* OfferCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCell.xib; sourceTree = "<group>"; };
+		CF2617022A34AF110059F379 /* OptionSlotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSlotVC.swift; sourceTree = "<group>"; };
+		CF42F6072A383ABF005E3C83 /* LeftMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		CF42F60A2A383C7C005E3C83 /* LeftMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuCell.swift; sourceTree = "<group>"; };
+		CF42F60B2A383C7C005E3C83 /* LeftMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftMenuCell.xib; sourceTree = "<group>"; };
+		CF5E82AA2A57DB9400F77375 /* ChangeStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStatus.swift; sourceTree = "<group>"; };
+		CF5E82BD2A57E78B00F77375 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		CF5E82BF2A580D2100F77375 /* BillPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPaymentVC.swift; sourceTree = "<group>"; };
+		CF5E82C12A581CB600F77375 /* ApplyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyCode.swift; sourceTree = "<group>"; };
+		CF5E82C32A581EAE00F77375 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		CF7488F12A38A18B008C52B6 /* PresentDeleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentDeleteVC.swift; sourceTree = "<group>"; };
+		CF7EE7D32A398C3600C02C2F /* NotififcationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotififcationVC.swift; sourceTree = "<group>"; };
+		CF7EE7D62A398C6D00C02C2F /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		CF7EE7D72A398C6D00C02C2F /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		CF8EDD3F2A497047005888F4 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		CF8EDD422A497056005888F4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CF8EDD462A4971D8005888F4 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CF8EDD482A4978D1005888F4 /* Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
+		CF8EDD4A2A498AE2005888F4 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CF8EDD4C2A4992B2005888F4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CF8EDD4E2A499508005888F4 /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
+		CF8EDD502A4996C6005888F4 /* UpdateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfile.swift; sourceTree = "<group>"; };
+		CF8EDD522A499B35005888F4 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		CF8EDD562A499F10005888F4 /* AreaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaList.swift; sourceTree = "<group>"; };
+		CF8EDD582A49A728005888F4 /* OfferList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferList.swift; sourceTree = "<group>"; };
+		CF8EDD6D2A49BF4A005888F4 /* ExtraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraService.swift; sourceTree = "<group>"; };
+		CF8EDD6F2A49C240005888F4 /* ExtraCleaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraCleaning.swift; sourceTree = "<group>"; };
+		CF9244AC2A5C2B870013718A /* ShinewellMaids.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShinewellMaids.entitlements; sourceTree = "<group>"; };
+		CF9244AD2A5C2C4C0013718A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF9526E42A56A22000C87B86 /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		CF9526E52A56A22000C87B86 /* DayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
+		CF9626272A56DA7C0049B101 /* PresentCancelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentCancelVC.swift; sourceTree = "<group>"; };
+		CF974FE42A4AB08400B982E5 /* AddressPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressPickerVC.swift; sourceTree = "<group>"; };
+		CF974FE82A4AB25300B982E5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CF974FEA2A4AB2BB00B982E5 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		CF974FEC2A4AB3A800B982E5 /* SearchLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationCell.swift; sourceTree = "<group>"; };
+		CF974FEE2A4AB5B100B982E5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		CF974FF02A4AB62B00B982E5 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		CF9A09792A5429C800BEF12F /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		CF9A097B2A54433800BEF12F /* ConvertPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertPoints.swift; sourceTree = "<group>"; };
+		CF9A097D2A544A8E00BEF12F /* BookingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetail.swift; sourceTree = "<group>"; };
+		CF9A85CF2A4AC53C0026AEB5 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		CF9B765C2A37151900C7A654 /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		CF9B765D2A37151900C7A654 /* ServiceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceCell.xib; sourceTree = "<group>"; };
+		CF9B76602A372C3400C7A654 /* SavedAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedAddressVC.swift; sourceTree = "<group>"; };
+		CF9B76652A372DF700C7A654 /* AdressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressCell.swift; sourceTree = "<group>"; };
+		CF9B76662A372DF700C7A654 /* AdressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdressCell.xib; sourceTree = "<group>"; };
+		CF9B76692A37343300C7A654 /* AddAdressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAdressVC.swift; sourceTree = "<group>"; };
+		CF9B766B2A373F6F00C7A654 /* DateTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeVC.swift; sourceTree = "<group>"; };
+		CF9B766D2A37504400C7A654 /* WalletContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletContainerVC.swift; sourceTree = "<group>"; };
+		CF9B766F2A3751CE00C7A654 /* CouponContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponContainerVC.swift; sourceTree = "<group>"; };
+		CF9B76712A3754EF00C7A654 /* BookingRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingRequestVC.swift; sourceTree = "<group>"; };
+		CF9F54A42A6564EC00B438FD /* UpdateArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateArea.swift; sourceTree = "<group>"; };
+		CFAFBBE62A54551E00C59F06 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		CFB10C502A55428F002D9711 /* AddBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBooking.swift; sourceTree = "<group>"; };
+		CFB468FB2A386959003495E6 /* MyBookingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingVC.swift; sourceTree = "<group>"; };
+		CFB468FE2A3869B8003495E6 /* BookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingCell.swift; sourceTree = "<group>"; };
+		CFB468FF2A3869B8003495E6 /* BookingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingCell.xib; sourceTree = "<group>"; };
+		CFB469022A3873F2003495E6 /* BookingHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHistoryVC.swift; sourceTree = "<group>"; };
+		CFB469052A387427003495E6 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		CFB469062A387427003495E6 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		CFB469092A387799003495E6 /* BookingDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsVC.swift; sourceTree = "<group>"; };
+		CFB4690B2A387EB2003495E6 /* WalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		CFB4690D2A388341003495E6 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		CFB4690F2A388457003495E6 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		CFB469112A3884D0003495E6 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		CFB4694F2A389C8B003495E6 /* PendingBillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingBillVC.swift; sourceTree = "<group>"; };
+		CFB469522A389CED003495E6 /* PendingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingCell.swift; sourceTree = "<group>"; };
+		CFB469532A389CED003495E6 /* PendingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PendingCell.xib; sourceTree = "<group>"; };
+		CFC834132A4C3973003F425A /* DeleteAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAddress.swift; sourceTree = "<group>"; };
+		CFC834152A4C3DDB003F425A /* AddAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddress.swift; sourceTree = "<group>"; };
+		CFC834172A4C4742003F425A /* BookingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingList.swift; sourceTree = "<group>"; };
+		CFC834192A4C4F63003F425A /* PendingBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingBill.swift; sourceTree = "<group>"; };
+		CFC8341B2A4C58DD003F425A /* BookingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHistory.swift; sourceTree = "<group>"; };
+		CFC8341D2A4C60FB003F425A /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		CFCA126D2A46C8720005B6F9 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		CFCA126F2A46CAA70005B6F9 /* ReferFriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferFriendVC.swift; sourceTree = "<group>"; };
+		CFD2B4062A5D3201004E7E0F /* GradiantPathRendered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantPathRendered.swift; sourceTree = "<group>"; };
+		CFD2B4082A5D3253004E7E0F /* NetworkActivityIndicatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkActivityIndicatorManager.swift; sourceTree = "<group>"; };
+		CFD2B40A2A5D52A1004E7E0F /* TermsNConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsNConditionVC.swift; sourceTree = "<group>"; };
+		CFD800322A36E8CC00675472 /* CleaningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleaningCell.swift; sourceTree = "<group>"; };
+		CFD800332A36E8CC00675472 /* CleaningCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CleaningCell.xib; sourceTree = "<group>"; };
+		D3A71D79726F532C50252F80 /* Pods-ShinewellMaidsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinewellMaidsTests.debug.xcconfig"; path = "Target Support Files/Pods-ShinewellMaidsTests/Pods-ShinewellMaidsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +266,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBD537E2ACAD83800005191 /* StripeFinancialConnections in Frameworks */,
+				CFBD537C2ACAD83800005191 /* StripeCardScan in Frameworks */,
+				CFBD537A2ACAD83800005191 /* StripeApplePay in Frameworks */,
+				CFBD53802ACAD83800005191 /* StripeIdentity in Frameworks */,
+				CFBD53822ACAD83800005191 /* StripePaymentSheet in Frameworks */,
+				7D554D150A700E54C0FBDD1D /* Pods_ShinewellMaids.framework in Frameworks */,
+				CFBD53862ACAD83800005191 /* StripePaymentsUI in Frameworks */,
+				CFBD53842ACAD83800005191 /* StripePayments in Frameworks */,
+				CFBD53782ACAD83800005191 /* Stripe in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +282,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CF1D9B1A3C6AB78AB368E7 /* Pods_ShinewellMaidsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +290,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E902CF0C1A4E0439057DF2CE /* Pods_ShinewellMaids_ShinewellMaidsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6D308DC858C7956988AC56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCCEE860EA6E47499F9F51 /* Pods_ShinewellMaids.framework */,
+				9337C62AD20571F4DCC65BBB /* Pods_ShinewellMaids_ShinewellMaidsUITests.framework */,
+				37E858352D9AE409BECB653A /* Pods_ShinewellMaidsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1185732A4967C10036F87B /* ThirdPartyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				CF1185752A4967FF0036F87B /* MBProgressHUD.h */,
+				CF1185782A4967FF0036F87B /* MBProgressHUD.m */,
+				CF1185762A4967FF0036F87B /* Reachability.h */,
+				CF1185772A4967FF0036F87B /* Reachability.m */,
+				CFD2B4062A5D3201004E7E0F /* GradiantPathRendered.swift */,
+				CFD2B4082A5D3253004E7E0F /* NetworkActivityIndicatorManager.swift */,
+				CF1185742A4967FF0036F87B /* ShinewellMaids-Bridging-Header.h */,
+			);
+			path = ThirdPartyLibrary;
+			sourceTree = "<group>";
+		};
 		CF2616A52A347A170059F379 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +328,8 @@
 				CF2616C72A347A190059F379 /* ShinewellMaidsTests */,
 				CF2616D12A347A190059F379 /* ShinewellMaidsUITests */,
 				CF2616AF2A347A170059F379 /* Products */,
+				D9A3D5B4A7FA3628D542EF78 /* Pods */,
+				A6D308DC858C7956988AC56D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +346,13 @@
 		CF2616B02A347A170059F379 /* ShinewellMaids */ = {
 			isa = PBXGroup;
 			children = (
+				CF9244AC2A5C2B870013718A /* ShinewellMaids.entitlements */,
 				CF2616B12A347A170059F379 /* AppDelegate.swift */,
-				CF2616B32A347A170059F379 /* SceneDelegate.swift */,
-				CF2616B52A347A170059F379 /* ViewController.swift */,
-				CF2616B72A347A170059F379 /* Main.storyboard */,
-				CF2616BA2A347A190059F379 /* Assets.xcassets */,
-				CF2616BC2A347A190059F379 /* LaunchScreen.storyboard */,
+				CF8EDD452A4971C9005888F4 /* Model */,
+				CF2616E62A347A7F0059F379 /* Component */,
+				CF2616E22A347A340059F379 /* Views */,
+				CF2616E32A347A3B0059F379 /* Resources */,
+				CF2616E12A347A280059F379 /* Controller */,
 				CF2616BF2A347A190059F379 /* Info.plist */,
 			);
 			path = ShinewellMaids;
@@ -127,6 +375,277 @@
 			path = ShinewellMaidsUITests;
 			sourceTree = "<group>";
 		};
+		CF2616E12A347A280059F379 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616F12A347C9D0059F379 /* LoginVC.swift */,
+				CF2616F32A347F2A0059F379 /* SignUpVC.swift */,
+				CF2616F52A3486820059F379 /* ForgotPasswordVC.swift */,
+				CF2616F72A348C6A0059F379 /* HomeVC.swift */,
+				CF2617022A34AF110059F379 /* OptionSlotVC.swift */,
+				CF9B76602A372C3400C7A654 /* SavedAddressVC.swift */,
+				CF9B76692A37343300C7A654 /* AddAdressVC.swift */,
+				CF9B766B2A373F6F00C7A654 /* DateTimeVC.swift */,
+				CF9B76712A3754EF00C7A654 /* BookingRequestVC.swift */,
+				CF9B766D2A37504400C7A654 /* WalletContainerVC.swift */,
+				CF9B766F2A3751CE00C7A654 /* CouponContainerVC.swift */,
+				CF42F6072A383ABF005E3C83 /* LeftMenuVC.swift */,
+				CFB468FB2A386959003495E6 /* MyBookingVC.swift */,
+				CFB469022A3873F2003495E6 /* BookingHistoryVC.swift */,
+				CFB469092A387799003495E6 /* BookingDetailsVC.swift */,
+				CFB4690B2A387EB2003495E6 /* WalletVC.swift */,
+				CFB4690D2A388341003495E6 /* EditProfileVC.swift */,
+				CFB4690F2A388457003495E6 /* ChangePasswordVC.swift */,
+				CFB469112A3884D0003495E6 /* ContactVC.swift */,
+				CFB4694F2A389C8B003495E6 /* PendingBillVC.swift */,
+				CF7488F12A38A18B008C52B6 /* PresentDeleteVC.swift */,
+				CF7EE7D32A398C3600C02C2F /* NotififcationVC.swift */,
+				CFCA126F2A46CAA70005B6F9 /* ReferFriendVC.swift */,
+				CF974FE42A4AB08400B982E5 /* AddressPickerVC.swift */,
+				CF974FF02A4AB62B00B982E5 /* NotificationVC.swift */,
+				CF9626272A56DA7C0049B101 /* PresentCancelVC.swift */,
+				CF5E82BD2A57E78B00F77375 /* PaymentVC.swift */,
+				CF5E82BF2A580D2100F77375 /* BillPaymentVC.swift */,
+				CFD2B40A2A5D52A1004E7E0F /* TermsNConditionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF2616E22A347A340059F379 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616E52A347A590059F379 /* Cell */,
+				CF2616E42A347A4E0059F379 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF2616E32A347A3B0059F379 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF9244AD2A5C2C4C0013718A /* GoogleService-Info.plist */,
+				CF974FEE2A4AB5B100B982E5 /* R.generated.swift */,
+				CF2616BA2A347A190059F379 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF2616E42A347A4E0059F379 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616BC2A347A190059F379 /* LaunchScreen.storyboard */,
+				CF2616B72A347A170059F379 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CF2616E52A347A590059F379 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF9526E32A56A20600C87B86 /* DayCollectionView */,
+				CF7EE7D52A398C5600C02C2F /* NotificationTableView */,
+				CFB469512A389CD6003495E6 /* PendingBillTableView */,
+				CFB469042A38740D003495E6 /* BookHistoryTableView */,
+				CFB468FD2A3869A3003495E6 /* BookingTableView */,
+				CF42F6092A383C63005E3C83 /* LeftMenuTableView */,
+				CF9B76622A372DCC00C7A654 /* AddressTableView */,
+				CF9B765B2A3714FC00C7A654 /* ServiceCollection */,
+				CFD800312A36E8A000675472 /* CleaningMaterialCollection */,
+				CF2616FD2A34937D0059F379 /* OfferCollectionView */,
+				CF974FEC2A4AB3A800B982E5 /* SearchLocationCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CF2616E62A347A7F0059F379 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CF974FE72A4AB24300B982E5 /* Location */,
+				CF8EDD3E2A49703B005888F4 /* HTTP */,
+				CF1185732A4967C10036F87B /* ThirdPartyLibrary */,
+				CF2616EC2A347B0D0059F379 /* Common */,
+				CF2616E72A347A950059F379 /* Utilities */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CF2616E72A347A950059F379 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616E82A347ACF0059F379 /* Extension.swift */,
+				CF2616EA2A347AE90059F379 /* NavigationExtension.swift */,
+				CFCA126D2A46C8720005B6F9 /* Switcher.swift */,
+				CF11856A2A4966340036F87B /* Service.swift */,
+				CF11856F2A4966F20036F87B /* Utility.swift */,
+				CF1185712A4967AD0036F87B /* InternetUtility.swift */,
+				CF8EDD4E2A499508005888F4 /* CameraHandler.swift */,
+				CF974FEA2A4AB2BB00B982E5 /* CustomAnnotation.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CF2616EC2A347B0D0059F379 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616ED2A347B200059F379 /* Constant.swift */,
+				CF2616EF2A347B2E0059F379 /* Variable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CF2616FD2A34937D0059F379 /* OfferCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CF2616FE2A3493A00059F379 /* OfferCell.swift */,
+				CF2616FF2A3493A00059F379 /* OfferCell.xib */,
+			);
+			path = OfferCollectionView;
+			sourceTree = "<group>";
+		};
+		CF42F6092A383C63005E3C83 /* LeftMenuTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CF42F60A2A383C7C005E3C83 /* LeftMenuCell.swift */,
+				CF42F60B2A383C7C005E3C83 /* LeftMenuCell.xib */,
+			);
+			path = LeftMenuTableView;
+			sourceTree = "<group>";
+		};
+		CF7EE7D52A398C5600C02C2F /* NotificationTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CF7EE7D62A398C6D00C02C2F /* NotificationCell.swift */,
+				CF7EE7D72A398C6D00C02C2F /* NotificationCell.xib */,
+			);
+			path = NotificationTableView;
+			sourceTree = "<group>";
+		};
+		CF8EDD3E2A49703B005888F4 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				CF8EDD422A497056005888F4 /* Router.swift */,
+				CF8EDD3F2A497047005888F4 /* Api.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		CF8EDD452A4971C9005888F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF8EDD462A4971D8005888F4 /* Login.swift */,
+				CF8EDD482A4978D1005888F4 /* Basic.swift */,
+				CF8EDD4A2A498AE2005888F4 /* SignUp.swift */,
+				CF8EDD4C2A4992B2005888F4 /* Profile.swift */,
+				CF8EDD502A4996C6005888F4 /* UpdateProfile.swift */,
+				CF8EDD522A499B35005888F4 /* Notification.swift */,
+				CF8EDD562A499F10005888F4 /* AreaList.swift */,
+				CF8EDD582A49A728005888F4 /* OfferList.swift */,
+				CF8EDD6D2A49BF4A005888F4 /* ExtraService.swift */,
+				CF8EDD6F2A49C240005888F4 /* ExtraCleaning.swift */,
+				CF9A85CF2A4AC53C0026AEB5 /* Address.swift */,
+				CFC834132A4C3973003F425A /* DeleteAddress.swift */,
+				CFC834152A4C3DDB003F425A /* AddAddress.swift */,
+				CFC834172A4C4742003F425A /* BookingList.swift */,
+				CFC834192A4C4F63003F425A /* PendingBill.swift */,
+				CFC8341B2A4C58DD003F425A /* BookingHistory.swift */,
+				CFC8341D2A4C60FB003F425A /* ChangePassword.swift */,
+				CF9A09792A5429C800BEF12F /* Feedback.swift */,
+				CF9A097B2A54433800BEF12F /* ConvertPoints.swift */,
+				CF9A097D2A544A8E00BEF12F /* BookingDetail.swift */,
+				CFAFBBE62A54551E00C59F06 /* Calculation.swift */,
+				CFB10C502A55428F002D9711 /* AddBooking.swift */,
+				CF5E82AA2A57DB9400F77375 /* ChangeStatus.swift */,
+				CF5E82C12A581CB600F77375 /* ApplyCode.swift */,
+				CF5E82C32A581EAE00F77375 /* Setting.swift */,
+				CF9F54A42A6564EC00B438FD /* UpdateArea.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF9526E32A56A20600C87B86 /* DayCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CF9526E42A56A22000C87B86 /* DayCell.swift */,
+				CF9526E52A56A22000C87B86 /* DayCell.xib */,
+			);
+			path = DayCollectionView;
+			sourceTree = "<group>";
+		};
+		CF974FE72A4AB24300B982E5 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				CF974FE82A4AB25300B982E5 /* LocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		CF9B765B2A3714FC00C7A654 /* ServiceCollection */ = {
+			isa = PBXGroup;
+			children = (
+				CF9B765C2A37151900C7A654 /* ServiceCell.swift */,
+				CF9B765D2A37151900C7A654 /* ServiceCell.xib */,
+			);
+			path = ServiceCollection;
+			sourceTree = "<group>";
+		};
+		CF9B76622A372DCC00C7A654 /* AddressTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CF9B76652A372DF700C7A654 /* AdressCell.swift */,
+				CF9B76662A372DF700C7A654 /* AdressCell.xib */,
+			);
+			path = AddressTableView;
+			sourceTree = "<group>";
+		};
+		CFB468FD2A3869A3003495E6 /* BookingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CFB468FE2A3869B8003495E6 /* BookingCell.swift */,
+				CFB468FF2A3869B8003495E6 /* BookingCell.xib */,
+			);
+			path = BookingTableView;
+			sourceTree = "<group>";
+		};
+		CFB469042A38740D003495E6 /* BookHistoryTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CFB469052A387427003495E6 /* HistoryCell.swift */,
+				CFB469062A387427003495E6 /* HistoryCell.xib */,
+			);
+			path = BookHistoryTableView;
+			sourceTree = "<group>";
+		};
+		CFB469512A389CD6003495E6 /* PendingBillTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CFB469522A389CED003495E6 /* PendingCell.swift */,
+				CFB469532A389CED003495E6 /* PendingCell.xib */,
+			);
+			path = PendingBillTableView;
+			sourceTree = "<group>";
+		};
+		CFD800312A36E8A000675472 /* CleaningMaterialCollection */ = {
+			isa = PBXGroup;
+			children = (
+				CFD800322A36E8CC00675472 /* CleaningCell.swift */,
+				CFD800332A36E8CC00675472 /* CleaningCell.xib */,
+			);
+			path = CleaningMaterialCollection;
+			sourceTree = "<group>";
+		};
+		D9A3D5B4A7FA3628D542EF78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				011BA4FA40146DD62672735C /* Pods-ShinewellMaids.debug.xcconfig */,
+				58DD4A1776C453F1A2F99DAB /* Pods-ShinewellMaids.release.xcconfig */,
+				8A50178E52B706F6FEB465FA /* Pods-ShinewellMaids-ShinewellMaidsUITests.debug.xcconfig */,
+				11356292964182EB73FEBD2C /* Pods-ShinewellMaids-ShinewellMaidsUITests.release.xcconfig */,
+				D3A71D79726F532C50252F80 /* Pods-ShinewellMaidsTests.debug.xcconfig */,
+				CBA285F5D10E6684605103D1 /* Pods-ShinewellMaidsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +653,29 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF2616D82A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaids" */;
 			buildPhases = (
+				EA82199105B4A73E3AE47A26 /* [CP] Check Pods Manifest.lock */,
+				CF974FE62A4AB15F00B982E5 /* ShellScript */,
 				CF2616AA2A347A170059F379 /* Sources */,
 				CF2616AB2A347A170059F379 /* Frameworks */,
 				CF2616AC2A347A170059F379 /* Resources */,
+				76F910395F2975829BD5B437 /* [CP] Embed Pods Frameworks */,
+				055206CA9D12C4456E15C30C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ShinewellMaids;
+			packageProductDependencies = (
+				CFBD53772ACAD83800005191 /* Stripe */,
+				CFBD53792ACAD83800005191 /* StripeApplePay */,
+				CFBD537B2ACAD83800005191 /* StripeCardScan */,
+				CFBD537D2ACAD83800005191 /* StripeFinancialConnections */,
+				CFBD537F2ACAD83800005191 /* StripeIdentity */,
+				CFBD53812ACAD83800005191 /* StripePaymentSheet */,
+				CFBD53832ACAD83800005191 /* StripePayments */,
+				CFBD53852ACAD83800005191 /* StripePaymentsUI */,
+			);
 			productName = ShinewellMaids;
 			productReference = CF2616AE2A347A170059F379 /* ShinewellMaids.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +684,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF2616DB2A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaidsTests" */;
 			buildPhases = (
+				A35340C7FE7E62BFA51F8F78 /* [CP] Check Pods Manifest.lock */,
 				CF2616C02A347A190059F379 /* Sources */,
 				CF2616C12A347A190059F379 /* Frameworks */,
 				CF2616C22A347A190059F379 /* Resources */,
@@ -169,9 +703,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF2616DE2A347A190059F379 /* Build configuration list for PBXNativeTarget "ShinewellMaidsUITests" */;
 			buildPhases = (
+				A71BCC289EBC1CB8F2488D2A /* [CP] Check Pods Manifest.lock */,
 				CF2616CA2A347A190059F379 /* Sources */,
 				CF2616CB2A347A190059F379 /* Frameworks */,
 				CF2616CC2A347A190059F379 /* Resources */,
+				963D354846B4323F49A5A31F /* [CP] Embed Pods Frameworks */,
+				32E01ADD95BAD980FCE3A336 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +732,7 @@
 				TargetAttributes = {
 					CF2616AD2A347A170059F379 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1430;
 					};
 					CF2616C32A347A190059F379 = {
 						CreatedOnToolsVersion = 14.1;
@@ -215,6 +753,9 @@
 				Base,
 			);
 			mainGroup = CF2616A52A347A170059F379;
+			packageReferences = (
+				CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */,
+			);
 			productRefGroup = CF2616AF2A347A170059F379 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +772,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB469082A387427003495E6 /* HistoryCell.xib in Resources */,
+				CF9244AE2A5C2C4C0013718A /* GoogleService-Info.plist in Resources */,
+				CF2617012A3493A00059F379 /* OfferCell.xib in Resources */,
+				CF42F60D2A383C7C005E3C83 /* LeftMenuCell.xib in Resources */,
 				CF2616BE2A347A190059F379 /* LaunchScreen.storyboard in Resources */,
+				CFD800352A36E8CC00675472 /* CleaningCell.xib in Resources */,
+				CFB469552A389CED003495E6 /* PendingCell.xib in Resources */,
 				CF2616BB2A347A190059F379 /* Assets.xcassets in Resources */,
 				CF2616B92A347A170059F379 /* Main.storyboard in Resources */,
+				CF7EE7D92A398C6D00C02C2F /* NotificationCell.xib in Resources */,
+				CF9526E72A56A22000C87B86 /* DayCell.xib in Resources */,
+				CFB469012A3869B8003495E6 /* BookingCell.xib in Resources */,
+				CF9B765F2A37151900C7A654 /* ServiceCell.xib in Resources */,
+				CF9B76682A372DF700C7A654 /* AdressCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +805,252 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		055206CA9D12C4456E15C30C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids/Pods-ShinewellMaids-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids/Pods-ShinewellMaids-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids/Pods-ShinewellMaids-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32E01ADD95BAD980FCE3A336 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids-ShinewellMaidsUITests/Pods-ShinewellMaids-ShinewellMaidsUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids-ShinewellMaidsUITests/Pods-ShinewellMaids-ShinewellMaidsUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids-ShinewellMaidsUITests/Pods-ShinewellMaids-ShinewellMaidsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F910395F2975829BD5B437 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids/Pods-ShinewellMaids-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids/Pods-ShinewellMaids-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids/Pods-ShinewellMaids-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963D354846B4323F49A5A31F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids-ShinewellMaidsUITests/Pods-ShinewellMaids-ShinewellMaidsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids-ShinewellMaidsUITests/Pods-ShinewellMaids-ShinewellMaidsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShinewellMaids-ShinewellMaidsUITests/Pods-ShinewellMaids-ShinewellMaidsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A35340C7FE7E62BFA51F8F78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShinewellMaidsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71BCC289EBC1CB8F2488D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShinewellMaids-ShinewellMaidsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF974FE62A4AB15F00B982E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		EA82199105B4A73E3AE47A26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShinewellMaids-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF2616AA2A347A170059F379 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2616B62A347A170059F379 /* ViewController.swift in Sources */,
+				CFCA126E2A46C8720005B6F9 /* Switcher.swift in Sources */,
+				CF9B76612A372C3400C7A654 /* SavedAddressVC.swift in Sources */,
+				CF9A097E2A544A8E00BEF12F /* BookingDetail.swift in Sources */,
+				CFB4690E2A388341003495E6 /* EditProfileVC.swift in Sources */,
+				CF9626282A56DA7C0049B101 /* PresentCancelVC.swift in Sources */,
+				CF8EDD702A49C240005888F4 /* ExtraCleaning.swift in Sources */,
+				CF8EDD4D2A4992B3005888F4 /* Profile.swift in Sources */,
+				CF2616F42A347F2A0059F379 /* SignUpVC.swift in Sources */,
+				CF974FE92A4AB25300B982E5 /* LocationManager.swift in Sources */,
+				CFC834142A4C3973003F425A /* DeleteAddress.swift in Sources */,
+				CF2617002A3493A00059F379 /* OfferCell.swift in Sources */,
+				CFB4690C2A387EB2003495E6 /* WalletVC.swift in Sources */,
+				CF9B766C2A373F6F00C7A654 /* DateTimeVC.swift in Sources */,
+				CFB4690A2A387799003495E6 /* BookingDetailsVC.swift in Sources */,
+				CF9A097A2A5429C800BEF12F /* Feedback.swift in Sources */,
+				CFB468FC2A386959003495E6 /* MyBookingVC.swift in Sources */,
+				CF9B76722A3754EF00C7A654 /* BookingRequestVC.swift in Sources */,
+				CF1185792A4967FF0036F87B /* Reachability.m in Sources */,
+				CF2616F82A348C6A0059F379 /* HomeVC.swift in Sources */,
+				CF7EE7D42A398C3600C02C2F /* NotififcationVC.swift in Sources */,
+				CF5E82AB2A57DB9400F77375 /* ChangeStatus.swift in Sources */,
+				CF9A097C2A54433800BEF12F /* ConvertPoints.swift in Sources */,
+				CF9F54A52A6564EC00B438FD /* UpdateArea.swift in Sources */,
+				CF8EDD4B2A498AE2005888F4 /* SignUp.swift in Sources */,
+				CFC834162A4C3DDB003F425A /* AddAddress.swift in Sources */,
+				CF9B766E2A37504400C7A654 /* WalletContainerVC.swift in Sources */,
+				CFCA12702A46CAA70005B6F9 /* ReferFriendVC.swift in Sources */,
+				CF11856B2A4966340036F87B /* Service.swift in Sources */,
+				CFAFBBE72A54551E00C59F06 /* Calculation.swift in Sources */,
+				CF9B765E2A37151900C7A654 /* ServiceCell.swift in Sources */,
+				CF8EDD472A4971D8005888F4 /* Login.swift in Sources */,
+				CF8EDD532A499B35005888F4 /* Notification.swift in Sources */,
+				CF42F6082A383ABF005E3C83 /* LeftMenuVC.swift in Sources */,
+				CF7488F22A38A18B008C52B6 /* PresentDeleteVC.swift in Sources */,
+				CF5E82C02A580D2100F77375 /* BillPaymentVC.swift in Sources */,
+				CF2616F02A347B2E0059F379 /* Variable.swift in Sources */,
+				CF974FEF2A4AB5B100B982E5 /* R.generated.swift in Sources */,
+				CF9A85D02A4AC53C0026AEB5 /* Address.swift in Sources */,
+				CF8EDD592A49A728005888F4 /* OfferList.swift in Sources */,
+				CF974FE52A4AB08400B982E5 /* AddressPickerVC.swift in Sources */,
+				CFD2B40B2A5D52A1004E7E0F /* TermsNConditionVC.swift in Sources */,
 				CF2616B22A347A170059F379 /* AppDelegate.swift in Sources */,
-				CF2616B42A347A170059F379 /* SceneDelegate.swift in Sources */,
+				CF9526E62A56A22000C87B86 /* DayCell.swift in Sources */,
+				CFD2B4072A5D3201004E7E0F /* GradiantPathRendered.swift in Sources */,
+				CF1185702A4966F20036F87B /* Utility.swift in Sources */,
+				CF8EDD432A497056005888F4 /* Router.swift in Sources */,
+				CFB469502A389C8B003495E6 /* PendingBillVC.swift in Sources */,
+				CF974FEB2A4AB2BB00B982E5 /* CustomAnnotation.swift in Sources */,
+				CFC8341E2A4C60FC003F425A /* ChangePassword.swift in Sources */,
+				CF8EDD6E2A49BF4A005888F4 /* ExtraService.swift in Sources */,
+				CF2617032A34AF120059F379 /* OptionSlotVC.swift in Sources */,
+				CF8EDD512A4996C6005888F4 /* UpdateProfile.swift in Sources */,
+				CF2616F22A347C9D0059F379 /* LoginVC.swift in Sources */,
+				CFB469102A388457003495E6 /* ChangePasswordVC.swift in Sources */,
+				CFC8341C2A4C58DD003F425A /* BookingHistory.swift in Sources */,
+				CF8EDD492A4978D1005888F4 /* Basic.swift in Sources */,
+				CF42F60C2A383C7C005E3C83 /* LeftMenuCell.swift in Sources */,
+				CFB469122A3884D0003495E6 /* ContactVC.swift in Sources */,
+				CF2616EB2A347AE90059F379 /* NavigationExtension.swift in Sources */,
+				CF5E82BE2A57E78B00F77375 /* PaymentVC.swift in Sources */,
+				CFB469072A387427003495E6 /* HistoryCell.swift in Sources */,
+				CF11857A2A4967FF0036F87B /* MBProgressHUD.m in Sources */,
+				CFB469002A3869B8003495E6 /* BookingCell.swift in Sources */,
+				CFB469542A389CED003495E6 /* PendingCell.swift in Sources */,
+				CFD800342A36E8CC00675472 /* CleaningCell.swift in Sources */,
+				CFB10C512A55428F002D9711 /* AddBooking.swift in Sources */,
+				CF7EE7D82A398C6D00C02C2F /* NotificationCell.swift in Sources */,
+				CF1185722A4967AD0036F87B /* InternetUtility.swift in Sources */,
+				CFC8341A2A4C4F63003F425A /* PendingBill.swift in Sources */,
+				CF8EDD4F2A499508005888F4 /* CameraHandler.swift in Sources */,
+				CFD2B4092A5D3253004E7E0F /* NetworkActivityIndicatorManager.swift in Sources */,
+				CF974FF12A4AB62B00B982E5 /* NotificationVC.swift in Sources */,
+				CF2616F62A3486820059F379 /* ForgotPasswordVC.swift in Sources */,
+				CFB469032A3873F2003495E6 /* BookingHistoryVC.swift in Sources */,
+				CF8EDD402A497047005888F4 /* Api.swift in Sources */,
+				CF5E82C42A581EAE00F77375 /* Setting.swift in Sources */,
+				CF9B76672A372DF700C7A654 /* AdressCell.swift in Sources */,
+				CF2616E92A347ACF0059F379 /* Extension.swift in Sources */,
+				CF9B766A2A37343300C7A654 /* AddAdressVC.swift in Sources */,
+				CF8EDD572A499F10005888F4 /* AreaList.swift in Sources */,
+				CF5E82C22A581CB600F77375 /* ApplyCode.swift in Sources */,
+				CF9B76702A3751CE00C7A654 /* CouponContainerVC.swift in Sources */,
+				CF974FED2A4AB3A800B982E5 /* SearchLocationCell.swift in Sources */,
+				CF2616EE2A347B200059F379 /* Constant.swift in Sources */,
+				CFC834182A4C4742003F425A /* BookingList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,12 +1222,19 @@
 		};
 		CF2616D92A347A190059F379 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011BA4FA40146DD62672735C /* Pods-ShinewellMaids.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ShinewellMaids/ShinewellMaids.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5TLAY9535B;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 58YJ2ZUGUA;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShinewellMaids/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,27 +1242,43 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Techimmense.ShinewellMaids;
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShinewellMaids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ShineWellMaidChange;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShinewellMaids/Component/ThirdPartyLibrary/ShinewellMaids-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CF2616DA2A347A190059F379 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DD4A1776C453F1A2F99DAB /* Pods-ShinewellMaids.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ShinewellMaids/ShinewellMaids.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5TLAY9535B;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 58YJ2ZUGUA;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShinewellMaids/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,21 +1286,30 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Techimmense.ShinewellMaids;
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShinewellMaids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ShineWellMaidChange;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShinewellMaids/Component/ThirdPartyLibrary/ShinewellMaids-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CF2616DC2A347A190059F379 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A71D79726F532C50252F80 /* Pods-ShinewellMaidsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1330,7 @@
 		};
 		CF2616DD2A347A190059F379 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA285F5D10E6684605103D1 /* Pods-ShinewellMaidsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +1351,7 @@
 		};
 		CF2616DF2A347A190059F379 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A50178E52B706F6FEB465FA /* Pods-ShinewellMaids-ShinewellMaidsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +1370,7 @@
 		};
 		CF2616E02A347A190059F379 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11356292964182EB73FEBD2C /* Pods-ShinewellMaids-ShinewellMaidsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +1427,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFBD53772ACAD83800005191 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		CFBD53792ACAD83800005191 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeApplePay;
+		};
+		CFBD537B2ACAD83800005191 /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeCardScan;
+		};
+		CFBD537D2ACAD83800005191 /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeFinancialConnections;
+		};
+		CFBD537F2ACAD83800005191 /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeIdentity;
+		};
+		CFBD53812ACAD83800005191 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentSheet;
+		};
+		CFBD53832ACAD83800005191 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePayments;
+		};
+		CFBD53852ACAD83800005191 /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD53762ACAD83800005191 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentsUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF2616A62A347A170059F379 /* Project object */;
 }

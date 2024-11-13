@@ -2,24 +2,54 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
+	<key>CFBundleURLTypes</key>
+	<array>
 		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
 			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
+				<string>com.googleusercontent.apps.968611051353-5mjpe6dvt79c3ie5dn4t7m37igiq37vc</string>
 			</array>
 		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tel</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>example.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>This allow us to access your camera to update your profile picture</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>ShinewellMaid requires constant access to your phone’s location to notify to user.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ShinewellMaid requires constant access to your phone’s location to notify to user.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This allow us to access your gallary to update your profile picture</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
 </dict>
 </plist>

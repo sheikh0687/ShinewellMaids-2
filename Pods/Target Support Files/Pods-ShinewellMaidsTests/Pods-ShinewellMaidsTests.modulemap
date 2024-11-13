@@ -1,0 +1,6 @@
+framework module Pods_ShinewellMaidsTests {
+  umbrella header "Pods-ShinewellMaidsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

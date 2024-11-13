@@ -1,0 +1,212 @@
+https://techimmense.in/ShinewellMaids/webservice/
+    
+
+    @GET("login") // done
+    Call<ResponseBody> login(@QueryMap HashMap<String, String> map);
+  param.put("email",binding.emailEt.getText().toString());
+        param.put("password",binding.passwordEt.getText().toString());
+        param.put("register_id",FireBaseToken);
+        param.put("lat",""+lat);
+        param.put("lon",""+lon);
+
+
+
+    @GET("signup")  // done
+    Call<ResponseBody> signup(@QueryMap HashMap<String, String> map);
+   param.put("mobile",number);
+        param.put("mobile_with_code",country_code_str+number);
+        param.put("first_name",binding.firstName.getText().toString());
+        param.put("last_name",binding.lastName.getText().toString());
+        param.put("email",binding.emailEt.getText().toString());
+        param.put("password",binding.passwordEt.getText().toString());
+        param.put("register_id",FireBaseToken);
+        param.put("ios_register_id","");
+        param.put("signup_referral_code",""+binding.referalEt.getText().toString());
+
+        param.put("lat",lat);
+        param.put("lon",lon);
+
+
+ @GET("get_profile?") // done
+    Call<ResponseBody> getProfile(@Query("user_id") String userID);
+
+  @GET("delete_user_account?")
+    Call<ResponseBody> deleteUserAccount(@Query("user_id") String user_id);
+
+
+
+   @GET("get_notification_list?") // done
+    Call<ResponseBody> getMyNotifications(@Query("user_id") String user_id);
+
+
+    @GET("get_category?") //will Check
+    Call<ResponseBody> getCategory(@Query("user_id") String userID);
+
+    @GET("add_user_address")
+    Call<ResponseBody> addAddress(@QueryMap HashMap<String, String> map);
+  param.put("user_id", session.getUserID());
+        param.put("address", binding.selectlocation.getText().toString());
+        param.put("area_id", area_id);
+        param.put("area_name", area_name);
+        param.put("villa", binding.buildingvillaet.getText().toString());
+        param.put("appartment", binding.unitapartmentet.getText().toString());
+        param.put("street", binding.streetet.getText().toString());
+        param.put("landmark", binding.landmarket.getText().toString());
+        param.put("lat", "" + lat);
+        param.put("lon", "" + lon);
+
+
+
+    @GET("get_area_list?")  // done
+    Call<ResponseBody> getArea(@Query("user_id") String userID);
+ 
+    @GET("offer_list?") //done
+    Call<ResponseBody> getOffers(@Query("user_id") String userID);
+
+ @GET("calculation?") //done
+    Call<ResponseBody> getCalculations(@Query("user_id") String userID,@Query("no_of_maid") String no_of_maid,@Query("total_hr") String total_hr,@Query("cleaning_material") String cleaning_material);
+
+
+    @GET("get_service_extra_list?") // done
+    Call<ResponseBody> getExtraService(@Query("user_id") String userID);
+
+
+    @GET("get_cleaning_material_list?") // done
+    Call<ResponseBody> getCleaningMaterial(@Query("user_id") String userID);
+
+  @Multipart
+    @POST("update_profile") // done
+    Call<ResponseBody> updateProfile(@QueryMap HashMap<String,String>map, @Part MultipartBody.Part filePart);
+image ,
+ param.put("user_id",session.getUserID());
+        param.put("first_name",binding.firstName.getText().toString());
+        param.put("last_name",binding.lastName.getText().toString());
+        param.put("mobile",binding.phoneEt.getText().toString());
+        param.put("about_us",binding.aboutEt.getText().toString());
+        param.put("address",binding.addresEt.getText().toString());
+        param.put("lat","");
+        param.put("lon","");
+
+
+    @GET("change_password?") //done
+    Call<ProfileResponse> changepassword(@Query("user_id") String user_id,@Query("password") String password,@Query("old_password") String old_password) ;
+
+    @GET("forgot_password?") / done
+    Call<ResponseBody> ForgotCall(@Query("email") String email);
+
+  @GET("send_feedback?") // done
+    Call<ResponseBody> sendFeedback(@Query("user_id") String user_id,@Query("name") String name,@Query("contact_number") String contact_number,@Query("email") String email,@Query("feedback") String feedback) ;
+
+
+ @GET("add_user_address?") // done
+    Call<ResponseBody> addAddress(@Query("user_id") String user_id,@Query("title") String title,@Query("address") String address,@Query("lat") String lat,@Query("lon") String lon, @Query("timezone") String timezone);
+    
+@GET("get_user_address?") // done
+    Call<ResponseBody> getMyAddress(@Query("user_id") String user_id);
+
+    @GET("delete_user_address?") // done
+    Call<ResponseBody> deleteaddress(@Query("address_id") String address_id);
+
+
+
+    @GET("add_book_appointment"). //done
+    Call<ResponseBody> doBooking(@QueryMap HashMap<String, String> map);
+  param.put("user_id",session.getUserID());
+        param.put("total_amount",total_amount);
+        param.put("service_amount",service_amount);
+        param.put("VAT_amount",VAT_amount);
+        param.put("VAT",VAT);
+        param.put("date",date_str);
+        param.put("time",time_str);
+        param.put("address",location_str);
+        param.put("address_id",location_id);
+        param.put("description","");
+        param.put("offer_id","");
+        param.put("offer_code","");
+        param.put("how_offen_want_service",how_offen_str);
+        param.put("how_many_hours",howmanyhour_str);
+        param.put("how_many_cleaners",howmany_maid_str);
+        param.put("need_any_cleaning_material",cleaning_material_need);
+        param.put("additional_service",additional_service);
+        param.put("cleaning_material_name","");
+        param.put("cleaning_material_id","");
+        param.put("cleaning_material_price","");
+        param.put("additional_service_name",servicename_str);
+        param.put("additional_service_price",serviceprice_str);
+        param.put("additional_service_time",servicetime_str);
+        param.put("additional_service_id",serviceid_str);
+        param.put("how_cleaner_enter",how_youwantcleaner_str);
+        param.put("cleaning_instruction",instruction_str);
+        param.put("timezone",Tools.getTimeZone());
+        param.put("payment_type","Online");
+        param.put("day_name",""+selected_dayname);
+        param.put("discount","");
+        param.put("lat",""+lat);
+        param.put("lon",""+lon);
+
+
+
+
+
+
+    @GET("add_payment?"). // done
+  Call<ResponseBody> ChargeApi(@Query("user_id") String user_id,@Query("request_id") String request_id,@Query("total_amount") String total_amount,@Query("payment_method") String payment_method,@Query("token") String token,@Query("currency") String currency,@Query("offer_id") String offer_id,@Query("admin_commission") String admin_commission,@Query("admin_VAT") String admin_VAT,@Query("after_commission") String after_commission,@Query("after_discount") String after_discount,@Query("discount_amt") String discount_amt,@Query("offer_code") String offer_code,@Query("offer_percentage") String offer_percentage,@Query("wallet_used_amount") String wallet_used_amount,@Query("card_amount") String card_amount) ;
+
+  @GET("add_user_bill_payment?") //done
+  Call<ResponseBody> PayBill(@Query("user_id") String user_id,@Query("bill_id") String bill_id,@Query("total_amount") String total_amount,@Query("payment_method") String payment_method,@Query("token") String token,@Query("currency") String currency) ;
+
+
+  //https://techimmense.in/ShinewellMaids/webservice/get_user_book_appointment_list?user_id=1
+  @GET("get_user_book_appointment_list?") // done
+  Call<ResponseBody> getMyBookings(@Query("user_id") String userID);
+
+
+  //https://techimmense.in/ShinewellMaids/webservice/get_user_bill?user_id=9
+  @GET("get_user_bill?") // done
+  Call<ResponseBody> getPendingBills(@Query("user_id") String userID);
+
+
+  //https://techimmense.in/ShinewellMaids/webservice/get_user_book_appointment_history_list?user_id=1
+  @GET("get_user_book_appointment_history_list?") //done
+  Call<ResponseBody> getHistory(@Query("user_id") String userID);
+
+
+  //https://techimmense.in/ShinewellMaids/webservice/get_request_details?user_id=1&request_id=1
+  @GET("get_request_details?") //Done
+  Call<ResponseBody> getBookingDetails(@Query("user_id") String userID,@Query("request_id") String request_id);
+
+ @GET("get_setting?")
+  Call<ResponseBody> getSettingData(@Query("user_id") String userID);
+
+  @GET("apply_reward_points?") //Server Issue
+  Call<ResponseBody> applyRewards(@QueryMap HashMap<String,String>map);
+   param.put("user_id", session.getUserID());
+        param.put("provider_id", "");
+        param.put("points", binding.walletamttv.getText().toString());
+        param.put("amount", total_amount);
+
+
+
+
+
+  @GET("apply_offer?") // will check
+  Call<ResponseBody> applyOffer(@QueryMap HashMap<String,String>map);
+ param.put("user_id", session.getUserID());
+        param.put("provider_id", "");
+        param.put("offer_code", coupon_code);
+        param.put("amount", total_amount);
+
+
+
+
+  @GET("convered_points_wallet?") // done
+  Call<ResponseBody> convertPoints(@QueryMap HashMap<String,String>map);
+ param.put("user_id", session.getUserID());
+        param.put("points", binding.totalpoints.getText().toString());
+
+
+
+  //https://techimmense.in/ShinewellMaids/webservice/change_request_status?request_id=1&status=Finish
+  @GET("change_request_status?") //done
+  Call<ResponseBody> changeRequestStatus(@Query("user_id") String userID,@Query("request_id") String request_id,@Query("status") String status);
+

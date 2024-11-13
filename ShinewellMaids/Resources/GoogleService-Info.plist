@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>810724864857-6v6bskm3hessrqta52svnhi89hfus2jm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.810724864857-6v6bskm3hessrqta52svnhi89hfus2jm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAheo1gdecixj0G-pjA5k5FiquGslEOn_M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>810724864857</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jf.ShinewellMaids</string>
+	<key>PROJECT_ID</key>
+	<string>shinewellmaid</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shinewellmaid.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:810724864857:ios:32362f668819f6193e5248</string>
+</dict>
+</plist>
